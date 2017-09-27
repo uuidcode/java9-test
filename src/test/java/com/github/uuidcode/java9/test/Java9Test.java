@@ -61,4 +61,14 @@ public class Java9Test {
 
         assertThat(immutableMap.size()).isGreaterThan(0);
     }
+
+    @Test
+    public void qna() {
+        char Q = 'Q';
+        char N = 'N';
+
+        if (logger.isDebugEnabled()) {
+            logger.debug(">>> Q & N {}", Q & N);
+        }
+    }
 }
