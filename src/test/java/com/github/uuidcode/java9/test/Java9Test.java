@@ -3,6 +3,7 @@ package com.github.uuidcode.java9.test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.net.URI;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -70,5 +71,16 @@ public class Java9Test {
         if (logger.isDebugEnabled()) {
             logger.debug(">>> Q & N {}", Q & N);
         }
+    }
+
+    @Test
+    public void lang() {
+        String lang = "java kotlin python";
+        List<String> langList = Arrays.asList(lang.split(" "));
+
+        assertThat(langList.size()).isEqualTo(3);
+        assertThat(langList.get(0)).isEqualTo("java");
+        assertThat(langList.get(1)).isEqualTo("kotlin");
+        assertThat(langList.get(2)).isEqualTo("python");
     }
 }
