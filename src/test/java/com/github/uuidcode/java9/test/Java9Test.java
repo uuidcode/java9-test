@@ -19,24 +19,6 @@ public class Java9Test {
     protected static Logger logger = LoggerFactory.getLogger(Java9Test.class);
 
     @Test
-    public void test() throws Exception {
-        HttpRequest httpRequest = HttpRequest.newBuilder()
-            .uri(new URI("http://deployable.devel.kakao.com/api/json/info"))
-            .GET()
-            .build();
-
-        String content = HttpClient.newHttpClient()
-            .send(httpRequest, HttpResponse.BodyHandler.asString())
-            .body();
-
-        if (logger.isDebugEnabled()) {
-            logger.debug(">>> test content: {}", content);
-        }
-
-        assertThat(content).isNotNull();
-    }
-
-    @Test
     public void processHandler() {
         ProcessHandle.allProcesses()
             .filter(p -> p.info().command().orElse("").contains("java"))
