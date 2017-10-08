@@ -1,4 +1,4 @@
-package com.github.uuidcode.jlink.test;
+package com.github.uuidcode.jlink;
 
 public class Main {
     public static void main(String[] args) {

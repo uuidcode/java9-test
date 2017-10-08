@@ -12,6 +12,7 @@
         <module>jlink</module>
         <module>new-http-client</module>
         <module>process-api</module>
+        <module>jmod-plugin</module>
     </modules>
     <properties>
         <maven.compiler.source>9</maven.compiler.source>
