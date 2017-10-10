@@ -13,6 +13,7 @@
         <module>new-http-client</module>
         <module>process-api</module>
         <module>jmod-plugin</module>
+        <module>module-path</module>
     </modules>
     <properties>
         <maven.compiler.source>9</maven.compiler.source>
