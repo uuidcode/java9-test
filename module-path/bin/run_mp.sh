@@ -1,5 +1,5 @@
 java --module-path \
-../mod:\
+../lib:\
 ../target/classes \
 -m \
 module.path/com.github.uuidcode.mp.HelloModulePath

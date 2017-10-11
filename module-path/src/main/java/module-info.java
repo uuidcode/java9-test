@@ -1,5 +1,5 @@
 module module.path {
-    requires commons.lang3;
+    requires org.apache.commons.lang3;
     requires gson;
     requires guava;
 }
