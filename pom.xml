@@ -17,6 +17,7 @@
         <module>collection-factory-method</module>
         <module>stream-improvement</module>
         <module>optional-improvement</module>
+        <module>serviceLoader</module>
     </modules>
     <properties>
         <maven.compiler.source>9</maven.compiler.source>
