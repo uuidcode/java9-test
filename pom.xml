@@ -15,6 +15,8 @@
         <module>jmod-plugin</module>
         <module>module-path</module>
         <module>collection-factory-method</module>
+        <module>stream-improvement</module>
+        <module>optional-improvement</module>
     </modules>
     <properties>
         <maven.compiler.source>9</maven.compiler.source>
