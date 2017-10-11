@@ -31,16 +31,6 @@ public class HelloCollectionFactoryMethodTest {
     }
 
     @Test
-    public void qna() {
-        char Q = 'Q';
-        char N = 'N';
-
-        if (logger.isDebugEnabled()) {
-            logger.debug(">>> Q & N {}", Q & N);
-        }
-    }
-
-    @Test
     public void lang() {
         String lang = "java kotlin python";
         List<String> langList = Arrays.asList(lang.split(" "));
