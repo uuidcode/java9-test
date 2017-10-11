@@ -1,4 +1,4 @@
-package com.github.uuidcode.java9.test.nhc;
+package com.github.uuidcode.nhc;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -12,8 +12,8 @@ import jdk.incubator.http.HttpClient;
 import jdk.incubator.http.HttpRequest;
 import jdk.incubator.http.HttpResponse;
 
-public class Testing {
-    protected static Logger logger = LoggerFactory.getLogger(Testing.class);
+public class HelloNewHttpClientTest {
+    protected static Logger logger = LoggerFactory.getLogger(HelloNewHttpClientTest.class);
 
     @Test
     public void test() throws Exception {

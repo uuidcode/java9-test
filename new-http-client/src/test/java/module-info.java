@@ -1,4 +1,4 @@
-module com.github.uuidcode.java9.test.nhc {
+module com.github.uuidcode.nhc {
     requires jdk.incubator.httpclient;
     requires assertj.core;
     requires junit;

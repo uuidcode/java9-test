@@ -1,4 +1,4 @@
-package com.github.uuidcode.java9.test.pa;
+package com.github.uuidcode.nhc.test.pa;
 
 import org.junit.Test;
 
