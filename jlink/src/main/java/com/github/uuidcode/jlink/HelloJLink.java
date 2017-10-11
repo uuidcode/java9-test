@@ -1,7 +1,7 @@
 package com.github.uuidcode.jlink;
 
-public class Main {
+public class HelloJLink {
     public static void main(String[] args) {
-         System.out.println("Hello, World");
+         System.out.println("Hello, JLink");
     }
 }
