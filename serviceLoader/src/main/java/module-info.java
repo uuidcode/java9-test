@@ -1,3 +1,4 @@
 module com.github.uuidcode.serviceLoader {
-    uses java.nio.file.spi.FileSystemProvider;
+    requires java.sql;
+    uses java.sql.Driver;
 }
