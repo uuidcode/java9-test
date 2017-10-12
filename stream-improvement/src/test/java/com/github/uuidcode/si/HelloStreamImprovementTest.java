@@ -38,21 +38,21 @@ public class HelloStreamImprovementTest {
 
     @Test
     public void filter() {
-        IntStream.range(1, 20)
+        IntStream.rangeClosed(1, 20)
             .filter(i -> i < 10)
             .forEach(System.out::println);
     }
 
     @Test
     public void takeWhile() {
-        IntStream.range(1, 20)
+        IntStream.rangeClosed(1, 20)
             .takeWhile(i -> i < 10)
             .forEach(System.out::println);
     }
 
     @Test
     public void dropWhile() {
-        IntStream.range(1, 20)
+        IntStream.rangeClosed(1, 20)
             .dropWhile(i -> i < 10)
             .forEach(System.out::println);
     }
@@ -60,7 +60,7 @@ public class HelloStreamImprovementTest {
     @Test
     public void iterate8() {
         IntStream.iterate(3, x -> x + 3)
-            .filter(x -> x < 100)
+            .filter(x -> x < 10)
             .forEach(System.out::println);
     }
 
