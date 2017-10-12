@@ -18,6 +18,8 @@
         <module>stream-improvement</module>
         <module>optional-improvement</module>
         <module>serviceLoader</module>
+        <module>module-test</module>
+        <module>mysql</module>
     </modules>
     <properties>
         <maven.compiler.source>9</maven.compiler.source>

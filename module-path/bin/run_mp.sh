@@ -2,4 +2,4 @@ java --module-path \
 ../lib:\
 ../target/classes \
 -m \
-module.path/com.github.uuidcode.mp.HelloModulePath
+com.github.uuidcode.mp/com.github.uuidcode.mp.HelloModulePath
